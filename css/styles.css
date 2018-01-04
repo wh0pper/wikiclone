@@ -1,0 +1,20 @@
+.container {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 100%;
+}
+
+.col-sidebar {
+  width: 100px;
+  position:fixed;
+  height:100%;
+  z-index:0;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.col-content {
+  padding-left: 100px;
+  width: 100%;
+  z-index: 1;
+}
