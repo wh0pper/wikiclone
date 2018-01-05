@@ -46,3 +46,7 @@
 .imgblock {
   display: inline-block;
 }
+
+#lang ul li{
+  display: inline;
+}
