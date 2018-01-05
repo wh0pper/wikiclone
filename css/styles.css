@@ -5,8 +5,9 @@
 }
 
 .col-sidebar {
-  width: 100px;
-  position:fixed;
+  width: 175px;
+  position: relative;
+  float: left;
   height:100%;
   z-index:0;
   padding: 0 auto;
@@ -14,7 +15,34 @@
 }
 
 .col-content {
-  padding-left: 100px;
+  padding-left: 175px;
   width: 100%;
+  height: 100%;
   z-index: 1;
+}
+
+
+
+.col-md-6 {
+  margin-right: 3px;
+  padding: 0;
+}
+
+.col-md-5 {
+  margin-right: 3px;
+  padding: 0;
+}
+
+.col-md-10 {
+  margin-right: 3px;
+  padding: 0;
+  width: 100%;
+}
+
+.col-sidebar img {
+  max-width:100% ;
+}
+
+.imgblock {
+  display: inline-block;
 }
